@@ -92,6 +92,7 @@
     direction: inherit;
     font-size: 1em;
     /*margin-right: .5em;*/
+    margin-right: 4px;
 }
 
 .lightpick__toolbar {
@@ -292,5 +293,20 @@
 }
 .lightpick__apply-action {
     color: #fff;
+    background-color: #44B78B;
+    display: none;
+}
+
+/*Custom*/
+.lightpick__apply-action {
+    display: none;
+}
+
+.lightpick__footer {
+    justify-content: center;
+    padding-bottom: 4px;
+}
+
+.lightpick__reset-action {
     background-color: #44B78B;
 }
